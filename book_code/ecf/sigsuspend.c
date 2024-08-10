@@ -38,6 +38,7 @@ int main(int argc, char **argv)
 
         /* Do some work after receiving SIGCHLD */
         printf(".");
+        exit(0);            /*别一直打.....*/
     }
     exit(0);
 }
